@@ -4,6 +4,6 @@
 
 - example [web page source](https://github.com/ReFo0/Quiz)
 
-![express-web](https://github.com/ReFo0/express-webserver/assets/77904942/f6b8e734-b156-45bf-bb80-87ef05e297da)
+![image](https://github.com/ReFo0/express-webserver/assets/77904942/8572a8f6-8fab-4c11-af16-43b871c35c7c)
 
 
