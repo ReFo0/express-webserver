@@ -1,0 +1,109 @@
+/* Temel stiller */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Roboto', sans-serif;
+	background-color: #f1f1f1;
+}
+
+.container {
+	width: 80%;
+	max-width: 800px;
+	margin: 20px auto;
+	background-color: #fff;
+	padding: 20px;
+	border-radius: 10px;
+	box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+
+h1 {
+	font-size: 36px;
+	text-align: center;
+	margin-bottom: 20px;
+	font-family: 'Roboto', sans-serif;
+}
+
+p {
+	font-size: 18px;
+	margin-bottom: 10px;
+	font-family: 'Roboto', sans-serif;
+}
+
+.question {
+	margin-bottom: 20px;
+}
+
+input[type="radio"] {
+	margin-right: 10px;
+}
+
+.error {
+	display: none;
+	color: #f00;
+	font-size: 18px;
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+.button {
+	display: block;
+	width: 100%;
+	max-width: 200px;
+	margin: 20px auto;
+	padding: 10px;
+	background-color: #4CAF50;
+	color: #fff;
+	text-align: center;
+	text-decoration: none;
+	border-radius: 5px;
+	font-family: 'Roboto', sans-serif;
+}
+
+.button:hover {
+	background-color: #3e8e41;
+}
+
+/* Quiz sayfası stilleri */
+form {
+	margin-top: 20px;
+}
+
+button[type="submit"] {
+	display: block;
+	width: 100%;
+	max-width: 200px;
+	margin: 20px auto 0;
+	padding: 10px;
+	background-color: #4CAF50;
+	color: #fff;
+	text-align: center;
+	text-decoration: none;
+	border-radius: 5px;
+	border: none;
+	outline: none;
+	font-family: 'Roboto', sans-serif;
+}
+
+button[type="submit"]:hover {
+	background-color: #3e8e41;
+	cursor: pointer;
+}
+
+.question p {
+	font-size: 20px;
+	font-weight: bold;
+	margin-bottom: 10px;
+	font-family: 'Roboto', sans-serif;
+}
+
+.question label {
+	display: block;
+	margin-bottom: 10px;
+	font-size: 18px;
+	cursor: pointer;
+	font-family: 'Roboto', sans
+}

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Quiz</title>
+	<link rel="stylesheet" href="style.css">
+	<script src="script.js"></script>
+</head>
+<body>
+	<div class="container">
+		<h1>Quiz</h1>
+		<form onsubmit="return false;">
+			<div id="error" class="error">This is a quiz. Please answer all questions.</div>
+			<div id="q1" class="question">
+				<p>1. which is the largest ocean in the world?</p>
+				<label><input type="radio" name="q1" value="a">Atlantic Ocean</label><br>
+				<label><input type="radio" name="q1" value="b">Indian Ocean</label><br>
+				<label><input type="radio" name="q1" value="c">Pacific Ocean</label><br>
+				<label><input type="radio" name="q1" value="d">Arctic Ocean</label>
+			</div>
+			<div id="q2" class="question">
+				<p>2. which is the largest continent in the world?</p>
+				 <label><input type="radio" name="q2" value="a">Asia</label><br>
+				 <label><input type="radio" name="q2" value="b">Europe</label><br>
+				 <label><input type="radio" name="q2" value="c">Africa</label><br>
+				 <label><input type="radio" name="q2" value="d">North America</label>
+			</div>
+			<button type="submit" onclick="checkAnswers()">Show Results</button>
+		</form>
+	</div>
+</body>
+</html>
