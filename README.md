@@ -8,9 +8,6 @@
 
 - node index.js 
 
-- express webserver
-
-
 ![image](https://github.com/ReFo0/express-webserver/assets/77904942/8572a8f6-8fab-4c11-af16-43b871c35c7c)
 
 
